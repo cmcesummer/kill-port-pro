@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const { kill } = require('cross-port-killer');
+
+async function killpro() {
+  const r = await Promise.all(process.argv.slice(2).map(res => kill(res)));
+  console.log(...r)
+}
+
+killpro();
+

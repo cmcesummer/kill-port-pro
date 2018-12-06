@@ -1,0 +1,30 @@
+{
+  "name": "kill-port-pro",
+  "version": "1.0.0",
+  "description": "kill ports",
+  "main": "index.js",
+  "bin": {
+    "kill-port": "./bin/kill"
+  },
+  "keywords": [
+    "kill",
+    "port",
+    "kill-port"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmcesummer/kill-port-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmcesummer/kill-port-pro/issues"
+  },
+  "homepage": "https://github.com/cmcesummer/kill-port-pro#readme",
+  "devDependencies": {
+    "cross-port-killer": "^1.0.1"
+  }
+}
