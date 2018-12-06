@@ -1,6 +1,6 @@
 {
   "name": "kill-port-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "kill ports",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/cmcesummer/kill-port-pro/issues"
   },
   "homepage": "https://github.com/cmcesummer/kill-port-pro#readme",
-  "devDependencies": {
+  "dependencies": {
     "cross-port-killer": "^1.0.1"
   }
 }
